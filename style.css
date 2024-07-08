@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+/* banner stylying */
+.banner{
+    max-width: 1320px;
+    
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url(./images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+   background-blend-mode: overlay;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.banner-title{
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+}
+.banner-para{
+    color: white;
+    font-size: 32px;
+    font-weight: 400px;
+}
+/*second-banner styling */
+.second-banner{
+   width:800px;
+   height: 800px;
+  
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+.sale{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sale-offer{
+    font-size: 88px;
+    color: rgb(255, 0, 0);
+    font-family: "Inter";
+    font-weight: 700;
+    margin-bottom: 95px;
+}
+.sale-subtitle{
+color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+.sale-title{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.sale-img{
+    height: 500px;
+    width: 800px;
+}
+
+
+.sale-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* third-banner styling */
+.third-banner{
+   width: 1320px;
+     height:600px;
+   background-color: rgba(0,0,0,0.5);
+   background-blend-mode: overlay;
+     margin: 0 auto;
+     margin-top: 140px;
+    display: flex;
+    background-image: url(./images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.party-left{
+    width: 50%;
+    height: 600px ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px ;
+    
+}
+
+.party-left h1 {
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+}
+
+.party-left p {
+color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 50px;
+}
+
+#btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 400px;
+}
+.party-right{
+    width: 50%;
+    height: 600px;
+    height: 600px ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.party-img{
+    width: 40%;
+    height: 60%;
+}
