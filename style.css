@@ -167,3 +167,49 @@ margin-left: 50px;
     width: 40%;
     height: 60%;
 }
+/* forth-banner styling */
+.fourth-banner{
+   
+    height: 600px;
+    width: 1320px;
+   
+    margin: 0 auto;
+    margin-top: 140px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0) 100%);
+}
+.address{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+.add-title{
+    color: red;
+    margin-left: 10px;
+}
+.color{
+    color: black;
+}
+.btn-red{
+    color: white;
+    background-color: red;
+margin-top: 100px ;
+text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 576px;
+}
+.btn-red:hover{
+   background-color: rgb(159, 7, 7);
+}
