@@ -172,7 +172,7 @@ margin-left: 50px;
    
     height: 600px;
     width: 1320px;
-   
+   margin-bottom: 140px;
     margin: 0 auto;
     margin-top: 140px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0) 100%);
@@ -185,9 +185,11 @@ margin-left: 50px;
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
-    margin-top: 100px;
+   margin: 0 auto;
+   
 }
 .add-title{
+    
     color: red;
     margin-left: 10px;
 }
@@ -195,8 +197,8 @@ margin-left: 50px;
     color: black;
 }
 .btn-red{
-    color: white;
-    background-color: red;
+color: white;
+background-color: red;
 margin-top: 100px ;
 text-align: center;
   text-transform: uppercase;
@@ -212,4 +214,74 @@ text-align: center;
 }
 .btn-red:hover{
    background-color: rgb(159, 7, 7);
+}
+
+/* fifth-banner styling */
+.fifth-banner{
+    width:1320px ;
+    height: 980px;
+    border: 2px solid red;
+    margin-top: 100px;
+    margin:0 auto;
+    position: relative;
+}
+.holiday-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   width: 1068px;
+   height: 260px;
+   margin: 0 auto;
+}
+
+.holiday-text h5{
+color: rgb(7, 2, 17);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+}
+
+.holiday-text h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+}
+.holiday-text p{
+color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.solid-color{
+    width: 1320px;
+    height: 230px;
+    background-color: red;
+   position: absolute;
+   top: 77%;
+}
+.giftbox{
+    height:577px;
+    width:675px;
+    position:relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sale-new{
+    position: absolute;
+    bottom: 40%;
+    left: 140%;
 }
