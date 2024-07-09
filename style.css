@@ -220,7 +220,7 @@ text-align: center;
 .fifth-banner{
     width:1320px ;
     height: 980px;
-    border: 2px solid red;
+   
     margin-top: 100px;
     margin:0 auto;
     position: relative;
@@ -279,9 +279,87 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
 }
 .sale-new{
     position: absolute;
     bottom: 40%;
     left: 140%;
 }
+
+/* portfolio styling */
+.portfolio{
+    width:1320px;
+    height: 1160px;
+   
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-banner h5{
+font-family: "Merriweather", serif;
+color: red;
+font-size: 24px;
+font-weight: 500;
+text-transform: capitalize;
+margin-bottom: 14px;
+}
+.portfolio-banner h1{
+font-family: "Merriweather", serif;
+color: black;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+margin-bottom: 8px ;
+}
+
+.portfolio-banner p{
+font-family: "Merriweather", serif;
+color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 20px;
+}
+
+/* footer styling */
+.footer-banner{
+    width: 1600px;
+    height: 609px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 140px;
+    background-color: black;
+    margin-bottom: 40px;
+    color:white;
+}
+.contact{
+    display: flex;
+    margin-right: 160px;
+}
+.footer-first{
+    display: flex;
+   justify-content:  space-between;
+    margin-top: 120px;
+    margin-left: 160px;
+    
+}
+ .hr{
+   background-color: white;
+   width: 90%;
+   margin: 0 auto;
+   margin-top: 40px;
+ }
+ .social-icon{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 35px;
+ }
+
+ .footer-end{
+    display: flex;
+    justify-content:  space-between;
+     margin-top: 120px;
+     margin-left: 160px;
+     margin-top: 40px;
+ }
