@@ -167,11 +167,11 @@ margin-left: 50px;
 }
 /* forth-banner styling */
 .fourth-banner{
-   
+    border: 2px solid white;
     height: 600px;
     width: 1320px;
-   margin-bottom: 200px;
-    margin: 0 auto;
+   margin: 0 auto;
+
     margin-top: 140px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0) 100%);
 }
@@ -183,11 +183,10 @@ margin-left: 50px;
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
-   margin: 0 auto;
+    margin-top: 100px;
    
 }
 .add-title{
-    
     color: red;
     margin-left: 10px;
 }
@@ -327,7 +326,7 @@ margin-bottom: 20px;
    margin: 0 auto;
    margin-top: 140px;
    display: flex;
-   border: 2px solid black;
+   border: 2px solid white;
 }
 
 .banner-left{
@@ -396,12 +395,71 @@ margin-right: 10px;
     height: 20%;
  
 }
+
+/* Seventh-banner styling */
+.seventh-banner{
+    width: 1320px;
+    height: 616px;
+    border: 2px solid white;
+   margin: 0 auto;
+   background-color: rgba(0,0,0,0.05);
+}
+
+.icon img{
+  margin-top: 80px;
+  margin-left: 595px;
+}
+.icon h1{
+color: black;
+font-size: 48px;
+font-weight: 900;
+margin-top: 40px;
+margin-left: 400px;
+}
+.icon p{
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 22px;
+    margin-left: 212px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.box{
+    margin-top: 48px;
+}
+.box-1{
+width: 648px;
+height: 72px;
+border: 2px solid white;
+border-radius: 50px;
+background-color: white;
+margin-left: 336px;
+}
+
+.box-2{
+    width: 210px;
+    height: 72px;
+    border: 2px solid red;
+    margin-left: 435px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+}
+.box-2 h3{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+margin-top: 20px;
+}
 /* footer styling */
 .footer-banner{
     width: 1600px;
     height: 609px;
     margin: 0 auto;
-    border: 2px solid red;
+    border: 2px solid white;
    margin-top: 140px;
     background-color: black;
     margin-bottom: 40px;
